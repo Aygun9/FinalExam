@@ -17,15 +17,12 @@ void ChangeArray(string[] array)
         count++;
     }
     Console.WriteLine('[' + string.Join(", ", newArray) + ']');
-
-
-
-
 }
 
 
 
-Console.WriteLine("Source array:");
+Console.WriteLine("Initial array:");
 string[] Array1 = { " hello", "2", "world", "Russia", "me " };
 Console.WriteLine('[' + string.Join(", ", Array1) + ']');
+Console.WriteLine("Ammended array:");
 ChangeArray(Array1);
